@@ -16,17 +16,11 @@ public:
     ~MainWindow();
 
 private slots:
-    void on_actionAbrir_triggered();
-
-    void on_actionSair_triggered();
-
-    void on_actionSobre_triggered();
+ 
 
     void on_pushButton_clicked();
 
     void on_horizontalSlider_valueChanged(int value);
-
-    void on_actionSalvar_triggered();
 
     void on_horizontalSlider_R_valueChanged(int value);
 
